@@ -1,35 +1,35 @@
 # TwitterAPINodeJS
 Search tweets via Twitter API and store the tweets in MySQL table 
 
-npm install dependencies
-https://www.npmjs.com/package/flexqp-transaction
-https://www.npmjs.com/package/moment
-https://www.npmjs.com/package/twitter
+npm install dependencies<br />
+https://www.npmjs.com/package/flexqp-transaction<br />
+https://www.npmjs.com/package/moment<br />
+https://www.npmjs.com/package/twitter <br />
 
-#Refer to index.js at ./routes/index.js
+#Refer to index.js at ./routes/index.js<br />
 
-Include this at the top of the file
-var qp = require('flexqp-transaction');
-qp.presetConnection(require('../dbconfig.json'));
-var testdbconfig = require('../dbconfig.json');
-var moment = require("moment")
-var Twitter = require('twitter');
+Include this at the top of the file <br />
+var qp = require('flexqp-transaction');  <br />
+qp.presetConnection(require('../dbconfig.json'));  <br />
+var testdbconfig = require('../dbconfig.json');  <br />
+var moment = require("moment");  <br />
+var Twitter = require('twitter');  <br />
 
-Edit dbconfig.json at root folder 
-Example: 
-{
-    "host" : "127.0.0.1",
-    "user" : "root",
-    "password" : "password@123",
-    "database" : "test"
+Edit dbconfig.json at root folder <br />
+Example: <br />
+{<br />
+    "host" : "127.0.0.1", <br />
+    "user" : "root", <br />
+    "password" : "password@123", <br />
+    "database" : "test" <br />
 
-}
+} <br />
 
-Setup Application authentication at ./routes/index.js
-var client = new Twitter({
-  consumer_key: 'XXX',
-  consumer_secret: 'XXX',
-  bearer_token: 'XXX'
-});
+Setup Application authentication at ./routes/index.js <br />
+var client = new Twitter({ <br />
+  consumer_key: 'XXX', <br /> 
+  consumer_secret: 'XXX', <br />
+  bearer_token: 'XXX' <br />
+});<br />
 
 Setup query date range in queryAPI function 
