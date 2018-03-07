@@ -1,6 +1,8 @@
 # TwitterAPINodeJS
 Search tweets via Twitter API and store the tweets in MySQL table 
 
+This project is for NTU assignment CZ4034-INFORMATION RETRIEVAL<br />
+
 npm install dependencies<br />
 https://www.npmjs.com/package/flexqp-transaction<br />
 https://www.npmjs.com/package/moment<br />
