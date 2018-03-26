@@ -1,7 +1,9 @@
 # TwitterAPINodeJS
-Search tweets via Twitter API and store the tweets in MySQL table 
+Search tweets via Twitter API and store the tweets in MySQL table which are exported to JSON and imported to Solr
 
-This project is for NTU assignment CZ4034-INFORMATION RETRIEVAL<br />
+This project is part of the assignment for NTU CZ4034-INFORMATION RETRIEVAL<br />
+Author : Marcia Ong <br/>
+
 
 npm install dependencies<br />
 https://www.npmjs.com/package/flexqp-transaction<br />
